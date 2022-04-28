@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FPS_Camera : MonoBehaviour
+public class camera : MonoBehaviour
 {
     public float minimumX = -60f;
     public float maximumX = 60f;
@@ -35,4 +35,3 @@ public class FPS_Camera : MonoBehaviour
     Cursor.lockState = CursorLockMode.Locked;
     }
 }
-
